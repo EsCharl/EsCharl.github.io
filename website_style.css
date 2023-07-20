@@ -31,9 +31,10 @@ Battleship grey: #858786
 }
 
 .links{
-    position: absolute;
     bottom: 0;
     background: #858786;
+    padding: 0px;
+    
 }
 
 body {
@@ -42,11 +43,11 @@ body {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    color: #C4B1AE;
+    color: #493a38;
     text-align: center;
 }
 
 p {
-    color: #C4B1AE;
+    color: #493a38;
     text-align: center;
 }
