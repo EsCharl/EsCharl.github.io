@@ -18,6 +18,7 @@ Khaki(greyish) : #BFB59E
 Khaki : #CAB7A2
 Battleship grey: #858786
 */
+
 .title{
     border-radius: 25px;    
     border: 2px solid #BFB59E;
@@ -30,15 +31,18 @@ Battleship grey: #858786
     padding: 20px;
 }
 
-.links{
-    bottom: 0;
-    background: #858786;
-    padding: 0px;
-    
-}
 
 body {
+    /*
+    this is to remove the spaces around the page
+    */
+    margin: 0;
+    padding: 0;
+    
     background-color: #B4ADA3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -46,8 +50,36 @@ h1 {
     color: #493a38;
     text-align: center;
 }
-
+a{
+    text-decoration: none;
+}
 p {
     color: #493a38;
     text-align: center;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: auto;
+    width: 100%;
+    background: #858786;
+    display: block;
+}
+
+improvements{
+    color: rgb(65, 65, 65);
+    border-right: 1px solid rgb(111, 111, 111);
+
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+
+contact{
+    color: rgb(65, 65, 65);
+    float: right;
+    width: 50%;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
