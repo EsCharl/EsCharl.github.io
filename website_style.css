@@ -19,18 +19,47 @@ Khaki : #CAB7A2
 Battleship grey: #858786
 */
 
+.container{
+    margin: 10px;
+    padding: 10px;
+}
 .title{
     border-radius: 25px;    
     border: 2px solid #BFB59E;
     padding: 20px;
 }
+.images_section img{
+    
+    height: 30%;
+    width: 30%;
+    /* max-width: 30%;
+    max-height: 30%; */
+}
+img{
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main{ 
+    /*
+    the border-radius here technically is useless but it acts as a 
+    reminder if there are are additional stuff that needs to be added in the future*/
+    border-radius: 25px;
+    background: #FFF;
+}
 
 .about_me{
-    border-radius: 25px;    
+    border-radius: 25px 25px 0 0;
     background: #CAB7A2;
     padding: 20px;
 }
 
+.images_section{
+    text-align: center;
+    border-radius: 0 0 25px 25px;
+    background: #95826c;
+}
 
 body {
     /*
@@ -77,9 +106,10 @@ improvements{
 }
 
 contact{
+    background: #858786;
     color: rgb(65, 65, 65);
+    font-size: 10px;
     float: right;
     width: 50%;
     padding-bottom: 10px;
-    padding-left: 10px;
 }
