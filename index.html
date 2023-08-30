@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/website_style.css">
+    <script type="text/jsx" src="src/index.js"></script>
 </head>
 
 <body>
@@ -39,11 +40,15 @@
                 <br>
             </header>
             <hr>
-            <header class="images_section">
+            <header id="images_section">
                 <h1>Sample Works</h1>
                 <br>
-                
-	            <script type="text/jsx" src="src/index.js"></script>
+                <script type="text/babel">
+                    React.render(
+                        <ImageCreate/>,
+                        document.getElementById('images_section')
+                    )
+                </script>
 
             </header>
         </div>
