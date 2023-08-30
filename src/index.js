@@ -26,12 +26,12 @@ function App() {
   return (
     <div className="App">
       {imageLocation.map(x => (
-        <FadeInSection>
+        // <FadeInSection>
           <div classname={x.name}>
             <div><img src= {x.location} alt={x.name}/></div>
             <div><p>{x.details}</p></div>
           </div>
-        </FadeInSection>
+        // </FadeInSection>
       ))}
     </div>
   );
