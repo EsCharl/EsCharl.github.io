@@ -33,4 +33,4 @@ function App() {
 }
 
 const rootElement = document.querySelector('.images_section');
-rootElement.appendChild(App);
+ReactDOM.render(<App />, rootElement);
