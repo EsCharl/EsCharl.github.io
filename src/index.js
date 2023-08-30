@@ -37,5 +37,5 @@ function App() {
   );
 }
 
-const rootElement = document.getElementById('root');
+const rootElement = document.querySelector('.images_section');
 ReactDOM.render(<App />, rootElement);
