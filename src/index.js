@@ -17,7 +17,7 @@ function FadeInSection() {
   );
 }
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       {imageLocation.map(x => (
@@ -31,7 +31,3 @@ function App() {
     </div>
   );
 }
-
-console.log("hi");
-const rootElement = document.querySelector('.images_section');
-ReactDOM.render(<App />, rootElement);
